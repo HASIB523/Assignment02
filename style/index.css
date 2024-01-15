@@ -1,0 +1,7 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:ital,wght@0,500;0,600;0,700;0,800;1,300;1,400&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+}
