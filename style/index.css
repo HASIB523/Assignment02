@@ -13,7 +13,7 @@
 .primary-btn{
     height:50px;
     width: 170px;
-    background-color: #FF900E;
+    background-color: #FF5400;;
     color: #FFF;
     padding: 16px;
     border: none;
@@ -51,10 +51,10 @@ nav ul li a{
     color: #727272;
 }
 .home{
-    color: #FF900E;
+    color: #FF5400;;
 } 
 .border{
-    color: #FF900E;
+    color: #FF5400;;
 }
 /* banner */
 .banner{
@@ -117,6 +117,45 @@ main{
 .first-sec-text ul li{
     margin-top:30px;
 }
+
+/* second section */
+.second-sec-container{
+    margin-top: 80px;
+}
+.second-sec-text{
+    text-align: center;
+}
+.first-img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.first-img img{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+.first-line ,.third-line{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+    margin-top: 8px;
+}  
+.second-line{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin-top: 8px;
+}
+.second-sec-img{
+    margin-top: 40px;
+}
 /* third section */
 .third-sec-container{
     margin-top: 70px;
@@ -144,12 +183,36 @@ main{
     margin: 0 auto;
     margin-top: 10px;
 }
+/* bonus sectoin */
+.bonus-sec-container{
+    display: flex;
+    margin-top: 80px;
+    gap: 15px;
+}
+.step{
+    color: #FF5400;;
+}
+.bonus-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.bonus-box h3{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.bonus-box h3 i{
+    font-size: 50px;
+    color: #FF5400;
+    padding-right: 10px;
+    cursor: pointer;
 
+}
 /* last section */
 .last-sec-container{
     display: flex;
     gap: 20px;
-    margin-top: 70px;
+    margin-top: 80px;
     
 }
 .last-sec-container h4{
@@ -174,13 +237,13 @@ main{
     font-size: 1.5rem;
 }
 .last-sec-input{
-    border: 1px solid #FF900E;
+    border: 1px solid #FF5400;;
     padding: 15px;
     border-radius: 8px;
     height: 420px;
 }
 .img-text{
-    background-color: #FF900E;
+    background-color: #FF5400;;
     border-radius: 8px;
     height: 120px;
     width: 300px;
