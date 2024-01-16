@@ -201,11 +201,35 @@ main{
     margin-top:5px;
     font-size: 2.2rem;
 }
-
-
-
-
-
+/* footer section */
+footer{
+   
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-icon{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.footer-icon i{
+    margin-right: 15px;
+    
+}
+.footer-first{
+    border-bottom: 1px solid #72727227;
+    
+}
+.footer-last{
+    text-align: center;
+    margin-top: 50px;
+    
+}
 
 
 
